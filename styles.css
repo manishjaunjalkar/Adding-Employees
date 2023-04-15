@@ -1,0 +1,80 @@
+body {
+    
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    padding: 20px;
+  }
+  
+ 
+  form {
+    margin: 20px auto;  
+    width: 100%;
+  }
+
+  label {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+  }
+#display{
+    color: lightgray;
+}
+#employee-form{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+#employee-form div {
+display: flex;
+flex-direction: column;
+width: 300px;;
+}
+#employee-form div input{
+    height: 30px;;
+}
+
+
+.btn-block{
+    width: 300px;
+    height: 50px;
+    margin: 20px 0;
+}
+  
+  #employees {
+    margin: 40px 10px 10px 10px;
+    width: auto;
+    color: white;
+  }
+  
+  #employee-list {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    width: 25%;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin: 20px 10px 10px 10px;
+    width: 100%;
+    font-weight: bold;
+  }  
